@@ -91,11 +91,11 @@
         return;
     }
     if (self.isFlashOn) {
-        self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"手电筒关闭"
+        self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"关闭手电筒"
                                                                                   style:UIBarButtonItemStylePlain
                                                                                  target:self action:@selector(toggle)];
     } else {
-        self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"手电筒开启"
+        self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"开启手电筒"
                                                                                   style:UIBarButtonItemStylePlain
                                                                                  target:self action:@selector(toggle)];
     }
